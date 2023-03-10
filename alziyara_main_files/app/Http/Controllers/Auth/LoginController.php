@@ -1,0 +1,70 @@
+<?php
+
+namespace App\Http\Controllers\Auth;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Http\Request;
+use App\User;
+
+class LoginController extends Controller
+{
+    /*
+    |--------------------------------------------------------------------------
+    | Login Controller
+    |--------------------------------------------------------------------------
+    |
+    | This controller handles authenticating users for the application and
+    | redirecting them to your home screen. The controller uses a trait
+    | to conveniently provide its functionality to your applications.
+    |
+    */
+
+    use AuthenticatesUsers;
+
+    /**
+     * Where to redirect users after login.
+     *
+     * @var string
+     */
+    protected $redirectTo = '/dashboard';
+
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('guest')->except('logout');
+    }
+
+    public function authenticated(Request $request, $user)
+    {
+        activity($user->name)
+            ->performedOn($user)
+            ->causedBy($user)
+            ->log('LoggedIn');
+
+		// dd($request);
+
+        if(auth()->user()->hasRole('customer')){
+            return redirect('/');
+        }
+          return redirect('dashboard');
+    }
+
+    public function logout(Request $request)
+    {
+        if(auth()->user()){
+            $user = auth()->user();
+            activity($user->name)->performedOn($user)->causedBy($user)->log('LoggedOut');
+            $this->guard()->logout();
+            $request->session()->invalidate();
+            return redirect('/');
+        }
+        else{
+            return redirect('/');
+        }
+    }
+}

@@ -1,0 +1,448 @@
+@media(max-width:1920px){
+    .hero-img {
+        position: absolute;
+        top: 35px;
+    }
+    #banner-sec{
+        padding-top: 50px;
+    }
+}
+
+@media(max-width:1550px){
+    .hero-img {
+        position: absolute;
+        top: -90px;
+    }
+    #banner-sec{
+        padding-top: 80px;
+    
+    
+}
+#home-sec-2 p{
+    font-size: 15px !important;
+}
+
+@media(max-width:1440px){
+    .cta-heading { font-size: 35px; }
+}
+
+
+@media(max-width:1024px){
+    .nav-right.navbar-nav li {
+        display: none;
+    }
+    .collin-header {
+        padding-bottom: 10px;
+        background: #16486b;
+    }
+    #banner-sec {
+        padding-top: 8  0px;
+    }
+    #signup:before {
+        content: "";
+        height: 700px;
+        width: 700px;
+        display: none;
+        background: url(../images/bg1.png);
+        position: absolute;
+        left: -13%;
+        background-repeat: no-repeat;
+        top: 0;
+    }
+    #signup::after {
+        content: "";
+        height: 700px;
+        width: 700px;
+        display: none;
+        background: url(../images/bg1.png);
+        position: absolute;
+        left: -13%;
+        background-repeat: no-repeat;
+        top: 0;
+    }
+    .footer-links-wrapper form .form-group button { width: 100%; height: 40px; color: #fff; font-size: 16px; }
+    .footer-links-wrapper a { font-size: 15px; }
+    footer { padding: 40px; }   
+    .plan-card { margin-bottom: 10px; }
+    .plan-card h4 { font-size: 20px; }
+    .plan-card ul li { font-size: 14px; }
+    .section-heading { font-size: 35px; margin: 0 auto 20px; }
+    .hero-text-block h2 { font-size: 35px; }
+    .sec-3-top-bottom li:not(:last-child):after{display: none;}
+    .sub-heading {font-size: 35px;}
+    .sub-heading { font-size: 30px; }
+    .custom-btn { margin-top: 0; width: 100%; }
+    .cta-heading { font-size: 25px; margin-bottom: 20px; }
+    #home-sec-5 .custom-btn{width: 100%;}
+    .nav-item a {font-size: 15px !important;}
+    .collin-header img {width: 160px;}
+    .collin-header{padding-bottom: 25px;}
+    .hero-text-block .custom-btn {margin-top: 25px; font-size: 18px;}
+
+}
+@media(max-width:991px){
+    .collin-container { max-width: 100%; }
+    .collin-header { background: #16486b; }
+}
+
+
+
+@media(max-width:768px){
+    .img-size img{
+        margin-top: 0px;
+    }
+    .hero-img{
+        position: unset;
+    }
+    #banner-sec .custom-btn{
+        margin-top: 12px;
+        font-size: 12px;
+        height: 35px;
+    }
+    .hero-text-block small {
+        font-size: 13px !important;
+    }
+    #home-sec-2 .sub-heading{
+        font-size: 25px;
+        padding-bottom: 0px;
+    }
+    #home-sec-2 p{
+        font-size: 15px;
+    }
+    #home-sec-2{
+        padding: 0px;
+    }
+    .modal-serv-sec h2{
+        margin-top: 0px;
+    }
+    hr {
+        max-width: 40%;
+        margin-top: 2rem;
+        margin-bottom: 0rem;
+        border: 0;
+    }
+    .modal-serv-sec p {
+        max-width: 100%;
+        margin: 0 auto;
+        padding-bottom: 15px;
+        color: #707070;
+        margin-left: 0px;
+        font-size: 16px;
+    }
+    .home-sec-two h2 {
+        font-size: 18px;
+    }
+    .t-hr hr {
+        width: 28%;
+        margin: 0;
+        padding-bottom: 10px;
+        border-top: 3px solid #384899;
+    }
+    .t-hr2 hr{
+        padding-bottom: 10px;
+    }
+    #home-sec-3 .section-heading {
+        font-size: 25px;
+        text-align: center;
+        max-width: 800px;
+        margin: 0px auto 25px;
+    }
+    #home-sec-3 .sub-heading{
+        font-size: 20px;
+    }
+    #home-sec-3 .left-content p{
+        line-height: 1.5;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size: 13px;
+    }
+    #home-sec-3 a.btn.custom-btn{
+        font-size: 15px;
+        width: 100%;
+    }
+    .modal-serv-sec h2{
+        font-size: 25px;
+    }
+    .home-sec-two p{
+        font-size: 16.2px;
+    }
+    .home-shop h2 {
+        font-size: 25px;
+        color: #fff;
+    }
+    .footer-links-wrapper h4{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .footer-links-wrapper ul li:last-child span a i {
+        font-size: 20px;
+        padding: 12px 12px 0px 0px;
+    }
+    .footer-links-wrapper p {
+        color: #707070;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .footer-links-wrapper h4 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .form-control{
+        width: 90%;
+    }
+    .footer-links-wrapper form .form-group button{
+        width: 90%;
+    }
+    .img-fluid {
+        max-width: 95%;
+        height: auto;
+    }
+    .copy-rights p{
+        font-size: 15px;
+    }
+    .contact-card h3 { font-size: 20px; }
+    .contact-card p { font-size: 14px; }
+    .Contact_form h1 { font-size: 25px;}
+    #inner-banner-sec { margin-top: -220px; padding-top: 240px; padding-bottom: 100px; }
+    .hero-text-block h2 { font-size: 25px; padding-bottom: 15px; padding-top: 50px; }
+    
+    footer { padding: 15px; }
+    .sec-3-top-bottom { display: block; text-align: center; }
+    /* .hero-text-block h2 {font-size: 33px} */
+    .section-heading { font-size: 30px; }   
+    .nav-item a {font-size: 13px !important;}
+    .collin-header img {width: 130px;}
+    .hero-text-block small {font-size: 15px;}
+    #banner-sec{background-size: cover;}
+    .hero-section{height: 100% !important;padding-bottom: 50px;}
+    #inner-banner-sec{background-size: cover;height: 90vh;}
+    .hero-img-wrapper {padding-top: 50px;}
+    .image-container { padding-top: 30px; }
+    .cta-heading{font-size: 20px;}
+
+    .game-card-wrapper h3 {
+        font-size: 25px;
+        color: #23a8df;
+        margin-bottom: 15px;
+        font-family: 'aldrich';
+    }
+    .game-card-wrapper p {
+        font-family: 'Poppins';
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .hero-text-block h2{
+        font-size: 23px;
+    }
+    .footer-links-wrapper h4 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .section-heading {
+        font-size: 25px;
+    }
+    .steps-heading{
+        font-size: 25px;
+    }
+    #home-sec-3 .left-content p{
+        font-size: 14px;
+    }
+    #signup p{
+        font-size: 19px;
+    }
+    .vidos-heading h2 {
+        font-size: 30px;
+        color: #23a8df;
+        font-weight: 600;
+        font-family: 'aldrich';
+    }
+    .about-team-text h3 {
+        color: #23A8DF;
+        font-size: 25px;
+        font-family: aldrich;
+    }
+    .about-team-text small{
+        font-size: 20px;
+    }
+    .about-team-text .about-sub-heading{
+        font-size: 23px;
+    }
+    .about-team-text p{
+        font-size: 15px;
+    }
+    #about-sec-2 .image-container{
+        height: auto;
+    }
+    .th-1{
+        font-size: 20px;
+    }
+    .th-2{
+        font-size: 21px;
+    }
+    ul.nav-right.navbar-nav{
+        display: none !important;
+    }
+    .footer-links-wrapper form .form-group button{
+        color: #000;
+    }
+    
+
+}
+@media(max-width:767px){
+    nav .navbar-nav li:last-child {margin-left: 0;}
+    nav .navbar-nav li:last-child:before{display: none;}
+}
+
+@media(max-width:480px){
+
+    .img-size img{
+        margin: 0px;
+    }
+    .hero-section {
+        height: 100% !important;
+        padding-bottom: 120px;
+    }
+    .game-card-wrapper .image-container{
+        box-shadow: none;
+        padding: 0px;
+    }
+    #signup .signup-form .form-check label{
+        padding: 5px;
+    }
+    .modal-serv-sec {
+        padding-bottom: 0 !important;
+    }
+    .tiny{
+        box-shadow: none;
+    }
+    .left-content{
+        padding: 13px;
+    }
+    .pt-5, .py-5{
+        margin: 0px;
+    }
+
+    #home-sec-3 .col-lg-6{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .h-in-col{
+        box-shadow: none;
+    }
+    }
+    .hero-text-block h2{
+        font-size: 20px;
+    }
+    #home-sec-2 .sub-heading {
+        font-size: 20px;
+        padding-bottom: 0px;
+        padding-top: 15px;
+    }
+    #home-sec-2 p {
+        font-size: 13px;
+    }
+    .modal-serv-sec h2 {
+        font-size: 20px;
+    }
+    .modal-serv-sec p{
+        font-size: 14px;
+    }
+    .img-fluid{
+        margin-left: 8px;
+    }
+    .home-sec-two h2 {
+        font-size: 18px;
+        margin-left: 0px;
+        padding-top: 20px;
+    }
+    .t-hr2 hr{
+        margin-left: 15px;
+    }
+    #home-sec-3 .left-content p {
+        line-height: 1.5;
+        padding-top: 18px;
+        padding-bottom: 8px;
+        font-size: 15px;
+    }
+    #home-sec-3 .sub-heading {
+        font-size: 15px;
+    }
+    .img-fluid {
+        margin-top: 15px;
+    }
+    .home-sec-two .col-md-12.pt-5.t-hr {
+        padding: 0;
+    }
+    .home-sec-two{
+        padding: 50px 10px;
+    }
+    .home-sec-two p {
+        font-size: 15.2px;
+    }
+    .t-hr2 hr {
+        margin-left: 0px;
+    }
+    .home-shop h2{
+        font-size: 20px;
+    }
+    .home-sec-two h3{
+        font-size: 20px;
+    }
+    .home-sec-two h2{
+        font-size: 16px;
+    }
+    .footer-links-wrapper h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .footer-logo {
+        padding-top: 20px;
+    }
+    #home-sec-3 .section-heading{
+        padding-top: 50px;
+        padding-bottom: 40px;    
+        font-size: 23px;
+        margin: auto;
+    }
+    
+    #home-sec-5 .custom-btn { margin-top: 30px; }
+    .hero-text-block .custom-btn {font-size: 16px; height: 40px;margin-bottom: 15px;}
+    .section-heading{text-align: left;}
+    .sec-3-top-ul{display: block;}
+    .sec-3-top-ul li:first-child:after{display: none;}
+    .sec-3-top-ul li { padding-bottom: 5px; text-align: center; }
+    .custom-btn {margin-bottom: 25px;}
+    #home-sec-3{padding-top: 0;}
+    .swiper-slide{width: 100% !important;}
+
+    .vidos-heading h2{
+        font-size: 25px;
+    }
+    .about-team-text h3{
+        font-size: 23px;
+    }
+    .about-team-text small {
+        font-size: 17px;
+    }
+    .about-team-text .about-sub-heading {
+        font-size: 20px;
+    }
+    .about-team-text p {
+        font-size: 13px;
+    }
+    .section-heading {
+        text-align: center;
+    }
+    .th-1 {
+        font-size: 18px;
+    }
+    .th-2 {
+        font-size: 18px;
+    }
+    .sherry-btn{
+        width: 250px;
+        height: 50px;
+    }
+
+
+}
